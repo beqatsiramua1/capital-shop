@@ -1,0 +1,191 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body {
+    max-width: 144rem;
+    margin: 0 auto;
+    font-family: 'Jost', sans-serif;
+    color: #292621;
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 110rem;
+    margin: 0 auto;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 2rem 0;
+}
+
+.hamburger-icon {
+    display: none;
+}
+
+.nav__links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.nav__link {
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: #141517;
+    font-weight: bold;
+    transition: all .4s;
+}
+
+.nav__link:hover {
+    color: #ff2020;
+}
+
+.nav__link.active {
+    color: #ff2020;
+}
+
+.nav__user {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.nav__user--icon {
+    cursor: pointer;
+    transition: all .4s;
+}
+
+.nav__user--account a {
+    color: #292621;
+}
+
+.nav__user--icon:hover {
+    color: #ff2020;
+}
+
+.nav__user--shopping {
+    position: relative;
+}
+
+.nav__user--shopping:hover .nav__user--shoppping-amount {
+    transform: translateY(-.2rem);
+}
+
+.nav__user--shoppping-amount {
+    background-color: #ff2020;
+    position: absolute;
+    top: -1rem;
+    right: -1rem;
+    width: 2rem;
+    aspect-ratio: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: all .4s;
+}
+
+.shopping--amount {
+    font-size: 1.4rem;
+    color: #fff;
+}
+
+
+
+
+/** FOOTER **/
+.footer {
+    margin-top: 10rem;
+    background-color: #171613;
+    padding: 3rem 5rem;
+    color: #fff;
+}
+
+.footer-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(255,255,255,0.14);
+    padding-bottom: 5rem;
+}
+
+.footer-top-subs h5 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.footer-top-subs p {
+    font-size: 1.4rem;
+    width: 25rem;
+    margin-bottom: 2rem;
+}
+
+.footer-icons {
+    display: flex;
+    align-items: flex-start;
+    gap: 2rem;
+    margin-left: 1rem;
+    cursor: pointer;
+}
+
+.footer-icons > svg {
+    transition: all .4s;
+    color: #677F8B;
+}
+
+.footer-icons > svg:hover {
+    transform: rotateY(180deg);
+    color: #ff2020
+}
+
+.footer-input input {
+    padding: 2rem;
+    width: 40rem;
+    font-size: 1.7rem;
+}
+
+.footer-input input:focus, 
+.footer-input input:active {
+    outline: none;
+}
+
+.subscribe-btn {
+    padding: 2.2rem;
+    width: 15rem;
+    border: none;
+    color: #fff;
+    background-color: #ff2020;
+    font-size: 1.7rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.footer-bottom {
+    padding-top: 3rem;
+    text-align: center;
+}
+
+.footer-bottom span {
+    font-size: 2rem;
+}
+
+.nav__links.active {
+    transform: translateY(0);
+    visibility: visible;
+    opacity: 1;
+}

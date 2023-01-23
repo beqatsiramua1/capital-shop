@@ -1,0 +1,135 @@
+@media screen and (max-width: 1159px) {
+    .container {
+        max-width: 90%;
+    }   
+}
+
+
+@media screen and (max-width: 1075px) {
+    .swiper-slide-image img {
+        width: 100%;
+    }
+    
+    html {
+        font-size: 60%;
+    }
+
+    .fashion__collection-type-descr h3 {
+        font-size: 2.5rem;
+    }
+
+    .hamburger-icon {
+        display: block;
+        cursor: pointer;
+        margin-left: 1rem;
+    }
+
+    .nav__links {
+        flex-direction: column;
+        position: absolute;
+        background-color: #262529;
+        padding: 2rem 0;
+        width: 100%;
+        left: 0;
+        top: 100px;
+        z-index: 10;
+        transform: translateY(-500px);
+        visibility: hidden;
+        opacity: 0;
+        transition: all .5s;
+    }
+
+    .nav__links a {
+        color: #fff;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .footer-top {
+        flex-wrap: wrap;
+    }
+
+    .footer-top-left {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .fashion__collection-for {
+        width: 25rem;
+        height: 25rem;
+    }
+
+    .news-section-item {
+        width: 25rem;
+    }
+}
+
+
+@media screen and (max-width: 860px) {
+    html {
+        font-size: 55%;
+    }
+}
+
+@media screen and (max-width: 787px) {
+    html {
+        font-size: 45%;
+    }
+
+    .swiperTestimonial {
+        width: 100%;
+    }
+
+    .fashion__collection {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .fashion__collection-for {
+        width: 55rem;
+        height: 35rem;
+    }
+
+    .news-section-content {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .news-section-item {
+        width: 50%;
+        margin-bottom: 2rem;
+    }
+
+    .categories__area {
+        flex-wrap: wrap;
+    }
+
+    .categories__area-content {
+        margin-bottom: 1.5rem;
+    }
+
+    .carousel__slide--item-2 {
+        background-position: 40%;
+    }
+
+    
+}
+
+@media screen and (max-width: 500px) {
+    html {
+        font-size: 40%;
+    }
+
+    .news-section-content {
+        width: 100%;
+    }
+
+    .carousel__slide--item {
+        position: relative;
+    }
+
+    .carousel__item--descr-2 {
+        position: absolute;
+        left: 10%
+    }
+}

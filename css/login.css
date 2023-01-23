@@ -1,0 +1,108 @@
+.login__section {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login {
+    width: 70rem;
+    box-shadow: 0px 10px 30px 0px rgb(13 12 13 / 20%);
+    padding: 6rem 4rem;
+}
+
+.login-top-part {
+    text-align: center;
+}
+
+.login-top-part h2 {
+    font-size: 3rem;
+    color: #140c40;
+}
+
+.login-top-part p {
+    font-size: 1.6rem;
+    color: #301a22;
+    margin: 2rem 0;
+}
+
+.login__inputs > div {
+    margin-bottom: 2rem;
+}
+
+
+.login__inputs label {
+    display: block;
+    margin-bottom: 1rem;
+    color:#140c40;
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+
+.input {
+    padding: 1.4rem;
+    width: 100%;
+    border: none;
+    border: 1px solid #C9C9C9;
+    color: #C9C9C9;
+    font-size: 1.3rem;
+}
+
+.input::placeholder {
+    color: #C9C9C9;
+}
+
+.input:focus {
+    outline: none;
+}
+
+.login-details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.login-details-left {
+    display: flex;
+    align-items: center;
+}
+
+.login-details-left input {
+    width: 2rem;
+    height: 2rem;
+    accent-color: #ff2020;
+}
+
+.login-details-left span {
+    margin-left: .5rem;
+    font-size: 1.4rem;
+    color:#140c40;
+}
+
+.color-red {
+    color: #ff2020;
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+
+.login-final {
+    margin-top: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.login-final-left {
+    font-size: 1.3rem;
+    color:#301a22;
+}
+
+.login-btn {
+    background-color: #ff2020;
+    color: #fff;
+    border: none;
+    padding: 1.4rem 4rem;
+    font-size: 2rem;
+}
